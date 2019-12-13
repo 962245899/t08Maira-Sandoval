@@ -1,24 +1,26 @@
-#              10       20         30       40        50        60         70
-#    01234567890123456789012345678901234567890123456789012345678901234567890
-msg="si crees que puedes o crees que no puedes tienes razon. (henry ford)"
+#              10       20         30       40
+#    01234567890123456789012345678901234567890123
+msg="LOS ABRAZOS SON LA EXPRESION HUMANA DEL ALMA"
 #indexacion
-print(msg[51]) #impresion de la letra "z"
-print(msg[61])  #impresion de la letra "y"
+print(msg[40])  #impresion de la letra "A"
+print(msg[41])  #impresion de la letra "L"
+print(msg[42])  #impresion de la letra "M"
+print(msg[43])  #impresion de la letra "A"
+
 #longitud
-print(len("razon"))      #contabiliza el numero de letras de la palabra "razon"
-print(len("henry"))     #contabiliza el numero de letras de la palabra "henry"
+print(len("ABRAZOS"))      #contabiliza el numero de letras de la palabra "ABRAZOS"
+print(len("HUMANA"))     #contabiliza el numero de letras de la palabra "HUMANA"
 #comparacion
-print("que" != "que ")     #commpara la palabra escrita
+print("LA" == "la")     #commpara la palabra escrita
 #concatenacion
-print(msg[61] + msg[2] + msg[0] + msg[5] + msg[4])     #imprimir las palabras "y ser"
+print(msg[19] + msg[20] + msg[21] + msg[22] + msg[23] + msg[24] + msg[25] + msg[26] + msg[27])     #imprimir la palabra "EXPRESION"
 #cortado
-print(msg[49:54])       #cortar el fragmento"razon"
+print(msg[29:35])       #cortar el fragmento"EXPRESION HUMANA"
 print(msg[::-1])      #invertir el texto
 #iteracion
-for que in msg:
-    print(que)        #imprimir el texto en vertical
-
+for EXPRESION in msg:
+    print(EXPRESION)        #imprimir el texto en vertical
 #busqueda
-print(msg.count("s"))  #numero de "s"
-print(msg.find("o"))   #lugar de la primera "o"
-print(msg.index("c")) #lugar del primer "c"
+print(msg.count("I")) #numero de "I"
+print(msg.find("O")) #lugar de la  primera "O"
+print(msg.index("U")) #lugar del primer "U"

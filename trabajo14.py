@@ -1,23 +1,26 @@
-#              10       20         30       40        50        60         70       80        90        100       110
-#    012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
-msg="vive como si fueses a morir mañana. aprende como si fueses a vivir para siempre. (mahatma gandhi)"
+#              10       20         30       40
+#    0123456789012345678901234567890123456789012345678
+msg="LA RISA ES LA MEDICINA PARA EL DOLOR MAS EFECTIVA"
 #indexacion
-print(msg[30]) #impresion de la letra "ñ"
-print(msg[84])  #impresion de la letra "h"
+print(msg[3])  #impresion de la letra "R"
+print(msg[4])  #impresion de la letra "I"
+print(msg[5])  #impresion de la letra "S"
+print(msg[6])  #impresion de la letra "A"
+
 #longitud
-print(len("mañana"))      #contabiliza el numero de letras de la palabra "mañana"
-print(len("siempre"))     #contabiliza el numero de letras de la palabra "siempre"
+print(len("MEDICINA"))      #contabiliza el numero de letras de la palabra "MEDICINA"
+print(len("DOLOR"))     #contabiliza el numero de letras de la palabra "DOLOR"
 #comparacion
-print("a" == "a")     #commpara la palabra escrita
+print("LA" == "la")     #commpara la palabra escrita
 #concatenacion
-print(msg[90] + msg[24] + msg[29] + msg[32] + msg[93] + msg[3])     #imprimir las palabras "grande"
+print(msg[41] + msg[42] + msg[43] + msg[44] + msg[45] + msg[46] + msg[47] + msg[48])     #imprimir la palabra "EFECTIVA"
 #cortado
-print(msg[61:79])       #cortar el fragmento"vivir para siempre"
+print(msg[0:7])       #cortar el fragmento"LA RISA"
 print(msg[::-1])      #invertir el texto
 #iteracion
-for a in msg:
-    print(a)        #imprimir el texto en vertical
+for RISA in msg:
+    print(RISA)        #imprimir el texto en vertical
 #busqueda
-print(msg.count("h"))  #numero de "h"
-print(msg.find("f"))   #lugar de la primera "f"
-print(msg.index("a")) #lugar del primer "a"
+print(msg.count("R")) #numero de "R"
+print(msg.find("M")) #lugar de la  primera "M"
+print(msg.index("A")) #lugar del primer "A"

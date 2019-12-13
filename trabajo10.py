@@ -1,23 +1,27 @@
-#              10       20         30       40        50        60         70
-#    01234567890123456789012345678901234567890123456789012345678901234567890
-msg="cada logro comienza con la decision de intentarlo. (gail devers)"
+#              10       20         30       40        50        60
+#    0123456789012345678901234567890123456789012345678901234567890123456
+msg="¡LLORA! NO TE AVERGUENZES DE CONFESAR DE QUE ME HAS QUERIDO UN POCO"
 #indexacion
-print(msg[46]) #impresion de la letra "r"
-print(msg[5])  #impresion dela letra "l"
+print(msg[1])  #impresion de la letra "L"
+print(msg[2])  #impresion de la letra "L"
+print(msg[3])  #impresion de la letra "O"
+print(msg[4])  #impresion de la letra "R"
+print(msg[5])  #impresion de la letra "A"
+
 #longitud
-print(len("comienza"))      #contabiliza el numero de letras de la palabra "comienza"
-print(len("devers"))     #contabiliza el numero de letras de la palabra "devers"
+print(len("¡LLORA!"))      #contabiliza el numero de letras de la palabra "¡LLORA!"
+print(len("CONFESAR"))     #contabiliza el numero de letras de la palabra "CONFESAR"
 #comparacion
-print("conla " != "con la")     #commpara la palabra escrita
+print("NO" == "no")     #commpara la palabra escrita
 #concatenacion
-print(msg[16] + msg[6] + msg[41] + msg[53])     #imprimir las palabras "nota"
+print(msg[52] + msg[53] + msg[54] + msg[55] + msg[56] + msg[57] + msg[58])     #imprimir la palabra "QUERIDO"
 #cortado
-print(msg[39:49])       #cortar el fragmento"intentarlo"
+print(msg[8:25])       #cortar el fragmento"NO TE AVERGUENZES"
 print(msg[::-1])      #invertir el texto
 #iteracion
-for la in msg:
-    print(la)        #imprimir el texto en vertical
+for CONFESAR in msg:
+    print(CONFESAR)        #imprimir el texto en vertical
 #busqueda
-print(msg.count("i"))  #numero de "i"
-print(msg.find("("))   #lugar del primer "("
-print(msg.index("c")) #lugar del primer "c"
+print(msg.count("A")) #numero de "A"
+print(msg.find("O")) #lugar de la  primera "O"
+print(msg.index("R")) #lugar del primer "R"
